@@ -24,13 +24,12 @@
     "@ngx-translate/http-loader": "^3.0.1",
     "angular-in-memory-web-api": "^0.2.5",
     "bootstrap": "^4.4.1",
-    "core-js": "^2.5.7",
+    "core-js": "^2.6.11",
     "html2pdf.js": "^0.9.1",
-    "ngx-bootstrap": "^5.6.1",
+    "ngx-bootstrap": "^5.5.0",
     "ngx-export-as": "^1.4.2",
     "rxjs": "^6.5.5",
-    "web-animations-js": "^2.3.2",
-    "zone.js": "^0.8.29"
+    "zone.js": "^0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.901.1",
