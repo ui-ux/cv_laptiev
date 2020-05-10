@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    outline: none;
+  }
+  
+  body {
+    margin: 0;
+    min-width: 480px;
+  }
+  
+  .main {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.6), 23px 0 20px -23px rgba(0, 0, 0, 0.6), inset 0 0 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .language{
+    padding-top: 24px;
+    padding-right: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    text-align: right;
+  
+    span {
+      cursor: pointer;
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+  
+  .active-lang {
+    color: tomato;
+  }
+  
+  .content {
+    padding: 10px 50px;
+    min-height: 250px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFF;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #CCC;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #AAA;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #888;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+  }
+  
+  .tooltip-inner {
+    border-radius: 4px;
+    background: #ff6347;
+    box-shadow:  1px 1px 3px #d9543c, 
+                 -1px -1px 3px #ff7252;
+    color: #fff;
+  }
+  
+  .bs-tooltip-right .arrow::before{
+    border-right-color: #ff6347;
+  }
+  
+  .bs-tooltip-top .arrow::before{
+    border-top-color: #ff6347;
+  }
+  
+  .modal-header .close {
+    outline: none;
+  }
+  
+  app-responsibilities {
+    .tab-container {
+      .nav-tabs {
+        border-bottom: 0;
+  
+        .nav-link {
+          margin-bottom: 15px;
+          padding: 0 5px 5px 0;
+          color:  #212529;
+          font-size: 12px;
+           &:hover {
+            border: 1px solid #ffffff; 
+           }
+           &:active, &:hover {
+            color:  #212529;
+           }
+        }
+  
+        .nav-link.active {
+          border: 1px solid #ffffff; 
+          border-bottom: 1px solid tomato; 
+          color: tomato;
+        }
+      }
+    }
+  }
+  

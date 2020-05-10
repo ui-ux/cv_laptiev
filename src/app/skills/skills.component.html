@@ -1,0 +1,22 @@
+<section>
+    <div [ngClass]="isSearch ? 'static-search': 'fixed-search'">
+      <h1>
+        {{ 'skills' | translate }}
+      </h1>
+      <div class="search-skills">
+        <input type="text" [(ngModel)]="searchskills" >
+      </div>
+    </div>
+    <div [@skills]="skills"  class="row">
+      <div *ngFor="let skill of skills | search:searchskills"  class="col-lg-4">
+        <div class="text-center">
+          <img src="{{skill.url}}" alt="{{skill.name}}">
+        </div>
+        <div class="text-center">
+          {{skill.name | uppercase}}
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  

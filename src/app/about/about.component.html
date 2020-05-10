@@ -1,0 +1,283 @@
+<div class="about-me">
+    <div class="about-me_head">
+      <div class="d-flex justify-content-between">
+        <span class="about-me_head-name">
+          {{ 'about.aboutMe' | translate }} 
+        </span>
+        <button class="generate-resume" (click)="lgModal.show()">
+          {{ 'about.generate_cv' | translate }} 
+        </button>
+      </div>
+      <div>
+        <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1"role="dialog" aria-labelledby="dialog-sizes-name1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="generate-resume" (click)="download()">
+                {{ 'about.downloadCv' | translate }}
+              </button>
+              <button type="button" class="close pull-right" (click)="lgModal.hide()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="table">
+                <div class="mb-1">
+                  {{ 'about.userName' | translate }}  
+                </div>
+                <div class="details_content">
+                  {{ 'about.kpmgPeriod' | translate }}
+                </div>
+                <div class="details_content">
+                  {{ 'about.positionFirst' | translate }}, {{ 'about.positionSecond' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.projects' | translate }} - {{ 'about.projectsNameSecond' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.responsibilities' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  <ul>
+                    <li>
+                      {{ 'about.responsibilities1' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.responsibilities2' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.responsibilities3' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.responsibilities4' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.responsibilities5' | translate }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.deepUse' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  <ul>
+                    <li>
+                      {{ 'about.knowledge1' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge2' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge3' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge4' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge5' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge6' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge7' | translate }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.periodicUse' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  <ul>
+                    <li>
+                      {{ 'about.knowledge8' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge9' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge10' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge11' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge12' | translate }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.developmentTools' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  <ul>
+                    <li>
+                      {{ 'about.tools1' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.tools2' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.tools3' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.tools4' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.tools5' | translate }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="details_content">
+                  {{ 'about.freelancePeriod' | translate }}
+                </div>
+                <div class="details_content">
+                  {{ 'about.positionFirst' | translate }} 
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.projects' | translate }} - {{ 'about.projectsNameFirst' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.responsibilities' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  <ul>
+                    <li>
+                      {{ 'about.responsibilities6' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.responsibilities6' | translate }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.deepUse' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  <ul>
+                    <li>
+                      {{ 'about.knowledge1' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge13' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge14' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge15' | translate }}
+                    </li>
+                    <li>
+                      {{ 'about.knowledge16' | translate }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.periodicUse' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  <ul>
+                    <li>
+                      {{ 'about.knowledge17' | translate }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="details_caption_cv">
+                  {{ 'about.developmentTools' | translate }}
+                </div>
+                <div class="details_caption_cv">
+                  <ul>
+                    <li>
+                      {{ 'about.tools6' | translate }}, {{ 'about.tools2' | translate }}, {{ 'about.tools3' | translate }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="contact_list">
+                  <span class="fa fa-envelope-o">
+                  </span>
+                  <span>
+                    {{ 'about.envelopeName' | translate }}
+                  </span>
+                </div>
+                <div class="contact_list">
+                  <span class="fa fa-skype">
+                  </span>
+                  <span>
+                    {{ 'about.skype' | translate }}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      </div>
+      <div class="d-flex justify-content-between">
+        <div class="time">
+          {{timeData}}
+          </div>
+          <div class="data">
+          {{sdata}}
+          </div>
+      </div>
+    </div>
+    <div class="about-me_content">
+      <div>
+        <router-outlet></router-outlet>
+      </div> 
+    </div>
+    <div class="d-flex nav-about">
+      <div 
+        routerLink="main-information"
+        routerLinkActive="nav-about_active-link"
+        class="nav-about_list">
+        <i class="fa fa-address-card-o"></i>
+            <span class="nav-about_list-tooltip">
+              {{ 'about.baseInfoTab' | translate }}
+            </span>
+      </div>
+      <div 
+        routerLink="experience" 
+        routerLinkActive="nav-about_active-link"
+        class="nav-about_list">
+        <i class="fa fa-briefcase"></i>
+          <span class="nav-about_list-tooltip">
+            {{ 'about.experienceTab' | translate }}
+          </span>
+      </div>
+      <div 
+        routerLink="responsibilities" 
+        routerLinkActive="nav-about_active-link"
+        class="nav-about_list">
+        <i class="fa fa-gears"></i>
+        <span class="nav-about_list-tooltip">
+          {{ 'about.responsibilitiesTab' | translate }}
+        </span>
+      </div>
+      <div 
+        routerLink="languages" 
+        routerLinkActive="nav-about_active-link"
+        class="nav-about_list">
+        <i class="fa fa-globe"></i>
+        <span class="nav-about_list-tooltip">
+          {{ 'about.languagesTab' | translate }}
+        </span>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contact_list">
+        <span class="fa fa-envelope-o">
+        </span>
+        <span>
+          {{ 'about.envelopeName' | translate }}
+        </span>
+      </div>
+      <div class="contact_list">
+        <span class="fa fa-skype">
+        </span>
+        <span>
+          {{ 'about.skype' | translate }}
+        </span>
+      </div>
+    </div>
+  </div>

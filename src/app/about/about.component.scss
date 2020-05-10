@@ -1,0 +1,227 @@
+ul {
+    margin-bottom: 6px;
+  }
+  
+  .about-me {
+    margin: 24px auto;
+    width: 100%;
+    max-width: 300px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 12px -4px;
+    border-radius: 50px;
+  }
+  
+  .about-me_head {
+    padding: 20px 40px;
+    font-weight: 500;
+  }
+  
+  .about-me_head-name {
+    text-transform: uppercase;
+  }
+  
+  .about-me_content {
+    margin: auto;
+    width: 226px;
+    height: 380px;
+    background: #ffffff;
+    border-radius: 10px;
+    color: #000000;
+  }
+  
+  .time, .data {
+    font-size: 10px;
+  }
+  
+  .type {
+    margin: 0 auto 20px auto;
+    width: 90px;
+    width: 90px;
+    height: 90px;
+    background: url("../../assets/img/html5.jpg") center center no-repeat;
+    background-size: cover;
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px #7f7f7f inset, 0 0 1px 2px #ffffff inset;
+  }
+  
+  .nav-about {
+    position: relative;
+    & .list-prop:first-child {
+        border-radius: 6px 0 0 6px;
+    }
+  
+    & .list-prop:last-child {
+      border-radius: 0 6px 6px 0;
+    }
+  }
+  
+  .nav-about_list {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 10px;
+    width: 226px;
+    height: 38px;
+    line-height: 38px;
+    background: #ffffff;
+    box-shadow: 2px 2px 6px #d9d9d9, -2px -2px 6px #ffffff;
+  
+    .fa {
+      color: tomato;
+      font-size: 16px;
+      width: 20px;
+    }
+  
+    &:active {
+      background: tomato;
+      box-shadow: inset 2px 2px 3px #bf543c, inset -2px -2px 3px #ff7252;
+  
+      .fa {
+        color: #ffffff;
+      }
+    }
+  
+    &:hover > .nav-about_list-tooltip {
+      position: absolute;
+      top: -28px;
+      left: 0;
+      opacity: 1;
+      width: 75px;
+    }
+  }
+  
+  .nav-about_list-tooltip {
+    position: absolute;
+    top: 0;
+    left: 36px;
+    width: 0px;
+    transition: all 0.2s;
+    font-size: 10px;
+    text-align: center;
+    transition: all 0.2s;
+    color: tomato;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .nav-about_active-link  {
+    background: tomato;
+    box-shadow: inset 2px 2px 3px #bf543c, inset -2px -2px 3px #ff7252;
+  
+    .fa {
+      color: #ffffff;
+    }
+  }
+  
+  .contact {
+    padding-top: 15px;
+  }
+  
+  .contact_list {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    font-size: 12px;
+    color: #808080de;
+  
+    .fa {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+  }
+  
+  .contact_logo-skype {
+    display: inline-block;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    background: url("../../assets/img/skype.png") no-repeat;
+    background-size: cover;
+  }
+  
+  .contact_logo-envelope {
+    @extend .contact_logo-skype;
+    width: 30px;
+    height: 25px;
+    background: url("../../assets/img/envelope.png") no-repeat;
+    background-size: cover;
+  }
+  
+  .details {
+    padding-top: 14px;
+    background: #ffffff;
+    border-bottom: 1px solid rgba(159, 159, 159, 0.19);
+    border-top: 1px solid rgba(159, 159, 159, 0.19);
+    overflow-y: auto;
+  }
+  
+  .details_caption {
+    color: #808080de;
+    font-size: 12px;
+    text-transform: lowercase;
+  }
+  
+  .details_list {
+    margin-bottom: 10px;
+    color: #808080de;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  
+  .details_content {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  
+  .experience {
+    @extend .details;
+    height: 315px;
+  }
+  
+  .experience_head {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .company-name {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .work-period {
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+  
+  .generate-resume {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: initial;
+    color: #007bff;
+    outline: none;
+  }
+  
+  .modal-header {
+    align-items: center;
+  }
+  
+  .details_caption_cv {
+    font-size: 12px;
+    text-transform: initial;
+  }

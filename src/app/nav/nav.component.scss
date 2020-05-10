@@ -1,0 +1,70 @@
+ul {
+    padding: 0;
+    margin: 0;
+  
+    li {
+      list-style-type: none;
+     }
+  }
+  
+  .navigation-cv {
+    position: fixed;
+    top: 160px;
+    z-index: 1;
+  
+    .fa-bars {
+      cursor: pointer;
+      margin-top: 8px;
+      font-size: 30px;
+      color: tomato;
+      transition: all 1s;
+    }
+    .fa-user-circle-o,.fa-cogs, .fa-suitcase, .fa-envelope-o, .fa-map-signs, .fa-television {
+      margin-right: 10px;
+      margin-left: 10px;
+      font-size: 20px;
+      color: tomato;
+    }
+  }
+  
+  
+  .navigation-cv_list {
+    cursor: pointer;
+    position: relative;
+    margin: 0 10px 10px 0;
+    height: 30px;
+    width: 39px;
+    line-height: 33px;
+    background: #ffffff;
+    border: 1px solid #ece4e4;
+    border-radius: 3px;
+    box-shadow: 1px 1px #ece4e4;
+    transition: all 1s;
+    color: tomato;
+  
+    &:hover .nav-about_list-tooltip {
+      top: -3px;
+      left: 50px;
+      opacity: 1;
+      width: 75px;
+    }
+  }
+  
+  .active {
+    border: 1px solid tomato !important;
+  }
+  
+  .nav-about_list-tooltip {
+    position: absolute;
+    top: 0;
+    left: 36px;
+    width: 0px;
+    transition: all 0.2s;
+    font-size: 14px;
+    text-align: center;
+    color: tomato;
+    background: #ffffff;
+    text-transform: uppercase;
+    opacity: 0;
+    box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 12px -4px;
+  }
