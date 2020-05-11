@@ -26,7 +26,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, '/cv_laptiev/assets/i18n/', '.json');
 }
 
 
