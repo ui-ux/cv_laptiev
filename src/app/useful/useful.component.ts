@@ -63,7 +63,7 @@ export class UsefulComponent  implements OnInit {
     { name: "ngxintltelinput", link: "https://www.npmjs.com/package/ngx-intl-tel-input", bg: "../../assets/img/img_useful/NgxIntlTelInput.png"},
     { name: "kendo-angular-ui", link: "https://www.telerik.com/kendo-angular-ui", bg: "../../assets/img/img_useful/kendo-angular-ui.png"},
     { name: "material-pro", link: "https://wrappixel.com/demos/admin-templates/material-pro/landingpage/index.html", bg: "../../assets/img/img_useful/material-pro.png"},
-    { name: "dribbble", link: "https://dribbble.com/shots", bg: "assets/img/img_useful/dribbble.png"},
+    { name: "dribbble", link: "https://dribbble.com/shots", bg: "/cv_laptiev/assets/img/img_useful/dribbble.png"},
   ];
 
   constructor() { }
