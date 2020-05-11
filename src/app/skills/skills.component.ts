@@ -23,27 +23,27 @@ export class SkillsComponent implements OnInit {
   searchskills: string = '';
   public isSearch: boolean = true;
   public skills = [
-    {id: 1, name: "html5", url: "../assets/img/html5.png"},
-    {id: 2, name: "css3", url: "../assets/img/Css3.png"},
-    {id: 3, name: "flexbox", url: "../assets/img/flexbox.png"},
-    {id: 4, name: "bootstrap 3/4", url: "../assets/img/bootstrap.png"},
-    {id: 5, name: "ng-bootstrap", url: "../assets/img/ng-bootstrap.png"},
-    {id: 6, name: "w3css", url: "../assets/img/w3css.png"},
-    {id: 7, name: "sass", url: "../assets/img/sass.png"},
-    {id: 8, name: "js", url: "../assets/img/js.png"},
-    {id: 9, name: "jquery", url: "../assets/img/jquery.png"},
-    {id: 10, name: "angular js/io", url: "../assets/img/angular.png"},
-    {id: 11, name: "reactivex", url: "../assets/img/reactivex.png"},
-    {id: 12, name: "angular material", url: "../assets/img/angular.png"},
-    {id: 13, name: "npm", url: "../assets/img/npm.png"},
-    {id: 14, name: "git", url: "../assets/img/git.png"},
-    {id: 15, name: "gulp", url: "../assets/img/gulp.png"},
-    {id: 16, name: "bower", url: "../assets/img/bower.png"},
-    {id: 17, name: "github", url: "../assets/img/github.png"},
-    {id: 18, name: "photoshop", url: "../assets/img/photoshop.png"},
-    {id: 19, name: "illustrator", url: "../assets/img/illustrator.png"},
-    {id: 20, name: "zeplin", url: "../assets/img/zeplin.png"},
-    {id: 21, name: "gwd", url: "../assets/img/google_web_designer.png"}
+    {id: 1, name: "html5", url: "/cv_laptiev/assets/img/html5.png"},
+    {id: 2, name: "css3", url: "/cv_laptiev/assets/img/Css3.png"},
+    {id: 3, name: "flexbox", url: "/cv_laptiev/assets/img/flexbox.png"},
+    {id: 4, name: "bootstrap 3/4", url: "/cv_laptiev/assets/img/bootstrap.png"},
+    {id: 5, name: "ng-bootstrap", url: "/cv_laptiev/assets/img/ng-bootstrap.png"},
+    {id: 6, name: "w3css", url: "/cv_laptiev/assets/img/w3css.png"},
+    {id: 7, name: "sass", url: "/cv_laptiev/assets/img/sass.png"},
+    {id: 8, name: "js", url: "/cv_laptiev/assets/img/js.png"},
+    {id: 9, name: "jquery", url: "/cv_laptiev/assets/img/jquery.png"},
+    {id: 10, name: "angular js/io", url: "/cv_laptiev/assets/img/angular.png"},
+    {id: 11, name: "reactivex", url: "/cv_laptiev/assets/img/reactivex.png"},
+    {id: 12, name: "angular material", url: "/cv_laptiev/assets/img/angular.png"},
+    {id: 13, name: "npm", url: "/cv_laptiev/assets/img/npm.png"},
+    {id: 14, name: "git", url: "/cv_laptiev/assets/img/git.png"},
+    {id: 15, name: "gulp", url: "/cv_laptiev/assets/img/gulp.png"},
+    {id: 16, name: "bower", url: "/cv_laptiev/assets/img/bower.png"},
+    {id: 17, name: "github", url: "/cv_laptiev/assets/img/github.png"},
+    {id: 18, name: "photoshop", url: "/cv_laptiev/assets/img/photoshop.png"},
+    {id: 19, name: "illustrator", url: "/cv_laptiev/assets/img/illustrator.png"},
+    {id: 20, name: "zeplin", url: "/cv_laptiev/assets/img/zeplin.png"},
+    {id: 21, name: "gwd", url: "/cv_laptiev/assets/img/google_web_designer.png"}
   ];
 
   constructor() { }
